@@ -1,0 +1,20 @@
+<ng-template #bigScreen>
+  <div class="lgMainDiv">
+    <div class="flex align-items-center justify-content-center flex-wrap card-container ml-7 z-5">
+      <div id="okta-signin-container" class="flex align-items-center justify-content-center flex-wrap card-container ml-7 z-5"></div>
+      <div class="flex align-items-center justify-content-center-center ml-4 p-8">
+        <img src="assets/img/okta_japan_white_medium.png" class="mainBanner">
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<!-- ************************* SMALL SCREEN ************************* -->
+<!-- ************************* SMALL SCREEN ************************* -->
+<ng-template [ngIf]="smallScreen" [ngIfElse]="bigScreen">
+  <div class="smMainDiv">
+    <div class="flex justify-content-center flex-wrap card-container  z-5">
+    <div id="okta-signin-container"></div>
+  </div>
+  </div>
+</ng-template>

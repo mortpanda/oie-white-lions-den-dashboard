@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('../node_modules/primeng/resources/themes/lara-light-blue/theme.css');
+@import url('../node_modules/primeng/resources/primeng.min.css');
+@import url('../node_modules/primeicons/primeicons.css');
+@import url('../node_modules/primeflex/primeflex.css');
+
+
+
+
+html,
+body {
+  height: auto;
+  width: 100%;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif!important;
+  color: #00297a;
+  display: block;
+  margin: 0px;
+  padding:0px;
+}
+
+
+
+$primary: #00297A !default;
+$secondary: #FFFFFF !default;
+$success: #00B478 !default;
+$info: #ABD5D6 !default;
+$warning: #FFC61C !default;
+$danger: #EC3629 !default;
+
+
+
+
+
+.p-element, .pi, .pi-fw:link {
+  text-decoration: none;
+  color: #FFFFFF !important;
+  cursor: pointer!important;
+}
+.p-element, .pi, .pi-fw:link  {
+  text-decoration: none;
+  color: #FFFFFF !important;
+  cursor: pointer!important;
+}
+.p-element, .pi, .pi-fw:link :hover {
+  text-decoration: none;
+  color: #FFFFFF !important;
+  cursor: pointer!important;
+}
+.p-element, .pi, .pi-fw:link :active {
+  text-decoration: none;
+  color: #FFFFFF !important; 
+  cursor: pointer!important;
+}
+
+.p-menu .p-menuitem-link .p-menuitem-icon{
+  color: #00297a!important; 
+}

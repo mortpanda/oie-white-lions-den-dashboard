@@ -1,0 +1,39 @@
+<ng-template #bigScreen>
+  <p-toolbar>
+    <div class="p-toolbar-group-left">
+      <a class="navbar-brand okta_banner" href="https://okta.com">
+        <img src="assets/img/okta_japan_white_medium.png" clas="LGnavbarBanner" width="200px">
+      </a>
+    </div>
+  </p-toolbar>
+
+  <p-dock [model]="ItemsMenu" position="left">
+    <ng-template pTemplate="item" let-item>
+      <!-- <a (click)="GoTo(item.strUri)" target="_blank" class="iconBtn"> -->
+      <i [class]="item.icon" [style]="item.style" [pTooltip]="item.label" ></i>
+    <!-- </a> -->
+    </ng-template>
+  </p-dock>
+  
+
+
+</ng-template>
+
+<!-- ************************* SMALL SCREEN ************************* -->
+<!-- ************************* SMALL SCREEN ************************* -->
+<ng-template [ngIf]="smallScreen" [ngIfElse]="bigScreen">
+
+  <p-toolbar class="smToolbar">
+    <button type="button" pButton icon="pi pi-bars"  (click)="menu.toggle($event)"></button>
+    <!-- <p-menu #menu [popup]="true" [model]="dockItems"></p-menu> -->
+    <p-menu #menu [popup]="true" [model]="SmallMenu" ></p-menu>
+    <div class="p-toolbar-group-left">
+      <a class="navbar-brand okta_banner" href="https://okta.com">
+        <img src="assets/img/okta_japan_white_medium.png" clas="LGnavbarBanner" width="200px">
+      </a>
+    </div>
+    
+  </p-toolbar>
+
+  
+</ng-template>
