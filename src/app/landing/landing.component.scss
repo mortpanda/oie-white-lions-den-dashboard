@@ -7,3 +7,20 @@
   margin-top: 100px !important;
   height: auto;
 }
+
+
+#okta-sign-in .custom-buttons .okta-verify-container .button, #okta-sign-in .sign-in-with-device-option .okta-verify-container .button, #okta-sign-in .sign-in-with-idp .okta-verify-container .button {
+  color: #FFFFFF!important;
+  background: #892100!important;
+  text-align: center!important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+#okta-sign-in.auth-container .okta-verify-authenticator {
+  background-image:none!important;
+  text-align: center!important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
