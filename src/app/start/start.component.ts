@@ -15,7 +15,7 @@ export class StartComponent implements OnInit {
   public authService = new OktaAuth(this.OktaSDKAuthService.config);
   strUserSession;
   strThisUser;
-
+  strFullName;
   constructor(
     public OktaGetTokenService: OktaGetTokenService,
     public OktaSDKAuthService: OktaSDKAuthService,
@@ -39,6 +39,7 @@ export class StartComponent implements OnInit {
             console.log(err);
             window.location.replace(this.OktaConfigService.strPostLogoutURL);
            })
+           this.strFullName = this.strThisUser.name;
         break;
     }
     console.log(this.strThisUser)
