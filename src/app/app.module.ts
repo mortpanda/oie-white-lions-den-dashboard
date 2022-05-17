@@ -18,7 +18,7 @@ import {TooltipModule} from 'primeng/tooltip';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { StartComponent } from './start/start.component';
-
+import {PanelModule} from 'primeng/panel';
 
 
 @NgModule({
@@ -44,7 +44,7 @@ import { StartComponent } from './start/start.component';
     FlexLayoutModule,
     InputTextModule,
     TooltipModule,
-    
+    PanelModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,9 @@
 <div class="userName">{{strFullName}}</div>
 
 <div class="startMainDiv" fxLayout="row wrap" fxLayoutAlign="center center">
-
+  <p-panel header="Okta Dashboard" id="mainPanel">
+    <iframe [src]="strSafeSite" class="mainIframe"></iframe>
+    </p-panel>
 </div>
 
 

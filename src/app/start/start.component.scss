@@ -1,5 +1,7 @@
 .startMainDiv{
   margin-top:120px!important;
+  z-index: 6000!important;
+  position: relative;
 }
 .userName {
   text-align: end !important;
@@ -10,4 +12,26 @@
   top: 0 !important;
   right: 0;
   width: 90vw;
+}
+
+.mainIframe {
+  border-style: dotted;
+  color: #ffffff !important;
+  width: 80vw !important;
+  height: 70vh !important;
+  overflow-y: auto !important;
+  overflow-x: none !important;
+}
+
+#mainPanel {
+  .p-panel {
+    .p-panel-header {
+      border: 1px solid #dee2e6;
+      padding: 10px !important;
+      background: #f8f9fa;
+      color: #343a40;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+    }
+  }
 }
