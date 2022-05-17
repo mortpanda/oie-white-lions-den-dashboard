@@ -1,4 +1,4 @@
-# OktaJapanTemplateV5Primeui
+# oie-white-lions-den-dashboard
 Uses [Prime Ng UI](https://www.primefaces.org/primeng/) for the UI elements.
 
 # THIS IS NOT AN OFFICIAL TEMPLATE.  
